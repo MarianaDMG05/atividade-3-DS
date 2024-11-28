@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes da Disney</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Filmes da Disney</h1>
+        <div class="filme">
+            <button class="filme" onclick="mostrarFilmes('liloestitch')">
+                <img src="images/lilo_stitch.jpg" alt="Lilo & Stitch" class="filme-imagem"> Lilo & Stitch
+            </button>
+            <button class="filme" onclick="mostrarFilmes('divertidamente')">
+                <img src="images/divertidamente.jpg" alt="Divertidamente" class="filme-imagem"> Divertidamente
+            </button>
+            <button class="filme" onclick="mostrarFilmes('pequenasereia')">
+                <img src="images/pequena_sereia.jpg" alt="A Pequena Sereia" class="filme-imagem"> A Pequena Sereia
+            </button>
+            <button class="filme" onclick="mostrarFilmes('ursinhopooh')">
+                <img src="images/ursinho_pooh.jpg" alt="O Ursinho Pooh" class="filme-imagem"> O Ursinho Pooh
+            </button>
+            <button class="filme" onclick="mostrarFilmes('tinkerbelleosegredodasfadas')">
+                <img src="images/tinker_bell.jpg" alt="Tinker Bell e o Segredo das Fadas" class="filme-imagem"> Tinker Bell e o Segredo das Fadas
+            </button>
+            <button class="filme" onclick="mostrarFilmes('toystory')">
+                <img src="images/toy_story.jpg" alt="Toy Story" class="filme-imagem"> Toy Story
+            </button>
+        </div>
+
+        <div id="dados" class="dados">
+            <p>Selecione um filme para ver o resumo</p>
+        </div>
+
+        <div class="opcoes">
+            <button onclick="alterarEstilo('estilo1')">Estilo 1</button>
+            <button onclick="alterarEstilo('estilo2')">Estilo 2</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
